@@ -8,9 +8,9 @@ import java.io.ObjectOutput;
 import java.time.DateTimeException;
 
 public class AgeCalc implements Externalizable {
-	private String inputDate;
+	//private String inputDate;
 	public AgeCalc(String inputDate){
-		this.inputDate = inputDate;
+		//this.inputDate = inputDate;
 	}
 	public static String calculateAge(String inputDate) throws Exception{
 		AgeCalc obj = new AgeCalc(inputDate);
