@@ -4,9 +4,9 @@ package calc.calc.sq.mvn;
  */
 public class Calc extends java.lang.Thread{
     public double doAdd(double a, double b){
-    	double sum = Double.longBitsToDouble(123);
-    	sum = a + b;
-        return sum;
+    	//double sum = Double.longBitsToDouble(123);
+    	//sum = a + b;
+        return a + b;
     }
     public double doSub(double num1, double num2){
     	int value = new Integer(123);
